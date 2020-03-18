@@ -1,0 +1,10 @@
+package basic;
+
+public class basic_04_scanner01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
