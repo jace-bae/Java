@@ -1,0 +1,24 @@
+package basic;
+
+public class basic_22_arrayCircle {
+	int radius;
+	public basic_22_arrayCircle(int radius) {
+		this.radius = radius;
+	}
+	public double getArea() {
+		return 3.14*radius*radius;
+	}
+
+	public static void main(String[] args) {
+		basic_22_arrayCircle [] c; //배열 선언
+		c = new basic_22_arrayCircle[5];
+		
+		for(int i = 0; i<c.length; i++)
+			c[i] = new basic_22_arrayCircle(i);
+		
+		for(int i = 0; i<c.length; i++)
+			System.out.print((int)(c[i].getArea()) + " ");
+
+	}
+
+}

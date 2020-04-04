@@ -1,0 +1,16 @@
+package basic;
+
+public class basic_17_circle {
+	int radius;
+	String name;
+	
+	public double getArea() {
+		return 3.14*radius*radius;
+	}
+	
+	public static void main(String[] args) {
+		Circle pizza;
+		
+	}
+
+}
